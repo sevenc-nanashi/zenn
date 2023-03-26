@@ -5,7 +5,7 @@ type: "tech"
 topics:
   - "cloudflareworkers"
   - "shieldsio"
-published: false
+published: true
 ---
 
 突然ですが、こんなものを作りました。
