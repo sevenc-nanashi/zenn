@@ -10,9 +10,9 @@ published: true
 
 突然ですが、こんなものを作りました。
 
-![バッジ](https://img.shields.io/endpoint?url=https%3A%2F%2Fchunirec.sevenc7c.workers.dev)
+https://img.shields.io/endpoint?url=https%3A%2F%2Fchunirec.sevenc7c.workers.dev
 
-多分世界で自分しかやってないであろう、**Chunithm^[正確にはChunirec]のレート表示**バッジです！！！！です！！！！
+多分世界で自分しかやってないであろう、**Chunithm^[正確にはChunirec]のレート表示**バッジです！！！！（画像だとZennに保存されてしまうのでURLだけ）
 ちゃんと更新されます。執筆現在では15.56ですが、多分そのうち変わってます。
 というわけで、Cloudflare workersでshields.ioのカスタムバッジを作ってみました。
 
