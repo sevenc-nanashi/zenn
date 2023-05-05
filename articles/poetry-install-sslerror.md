@@ -1,5 +1,5 @@
 ---
-title: "poetry installがSSLError(FileNotFoundError(2, 'No such file or directory'))で落ちる人へ向けて"
+title: "Windowsでのpoetry installがSSLErrorで落ちる人へ向けて"
 emoji: "🛡️"
 type: "tech"
 topics:
