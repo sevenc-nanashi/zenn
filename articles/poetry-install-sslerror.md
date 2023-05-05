@@ -12,7 +12,7 @@ published: true
 ```
   MaxRetryError
 
-  HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /VOICEVOX/pyopenjtalk/info/refs?service=git-upload-pack (Caused by SSLError(FileNotFoundError(2, 'No such file or directory')))
+  HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /user/repo/info/refs?service=git-upload-pack (Caused by SSLError(FileNotFoundError(2, 'No such file or directory')))
 
   at .venv\Lib\site-packages\urllib3\util\retry.py:592 in increment
       588│             history=history,
