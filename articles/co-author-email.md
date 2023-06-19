@@ -1,5 +1,5 @@
 ---
-title: "メアドが分からないけどCo-Authored-Byに入れたい時の対処法"
+title: "メアドが分からないけどCo-Authored-Byに入れたい時の解決法"
 emoji: "🤝"
 type: "tech"
 topics:
@@ -9,7 +9,7 @@ published: true
 
 # 始めに
 
-例えばDiscordでコードの相談に乗って貰ったり、PRをクローズしたけどそのPRの作者に感謝（？）を伝えたかったりして、Co-Authorに入れたいのに、メアドが分からなくてCo-Authored-Byに入れられないってなったときの対処法です。
+例えばDiscordでコードの相談に乗って貰ったり、PRをクローズしたけどそのPRの作者に感謝（？）を伝えたかったりして、Co-Authorに入れたいのに、メアドが分からなくてCo-Authored-Byに入れられないってなったときの解決法です。
 
 # 結論
 
