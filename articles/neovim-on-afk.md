@@ -9,9 +9,8 @@ topics:
 date: 2024-04-12
 aliases:
 ---
-# Neovim：一定時間操作が無かったら何かやる設定の作り方
-
 > この記事は[Vim駅伝](https://vim-jp.org/ekiden/) 2024/04/12の記事です。
+## レシピ
 
 ```lua
 local debounce_timer = nil
@@ -34,7 +33,7 @@ vim.on_key(function()
   end, 30 * 60 * 1000)
 end)
 ```
-
+コメントの部分は好きなように置き換えて下さい。
 ## なぜ？
 
 A. coc.nvimを落としたかったから。
