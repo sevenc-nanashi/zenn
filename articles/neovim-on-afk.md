@@ -6,10 +6,12 @@ type: tech
 topics:
   - Neovim
   - Lua
-date: 2024-04-05
+date: 2024-04-12
 aliases:
 ---
 # Neovim：一定時間操作が無かったら何かやる設定の作り方
+
+> この記事は[Vim駅伝](https://vim-jp.org/ekiden/) 2024/04/12の記事です。
 
 ```lua
 local debounce_timer = nil
