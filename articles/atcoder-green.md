@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 色変記事：実質2.5ヶ月でRubyとRustを使って入緑した話
 emoji: 🟩
 type: tech
@@ -57,6 +57,7 @@ puts (
 - [oj](https://github.com/online-judge-tools/oj)：提出、コードテスト
 - [oj-prepare](https://github.com/online-judge-tools/template-generator)：一括ダウンロード
 - [atcoder-judge-monitor](https://github.com/sevenc-nanashi/atcoder-judge-monitor)：提出結果チェック（自作）
+
 これらにより、エディタ内でダウンロード->提出->確認が完結するのでとても便利になりました。
 ブラウザは問題を見るためだけになっています。
 また、制約に色をつける[atcoder-limit-colorizer](https://github.com/sevenc-nanashi/atcoder-limit-colorizer)を自作しました。だいたい[ABC372 - E](https://atcoder.jp/contests/abc372/tasks/abc372_e)のせい。
