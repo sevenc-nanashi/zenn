@@ -78,7 +78,7 @@ DP練習問題です。AからEまで終わらせました。
 - 総当たり
 - 幅優先探索/深さ優先探索
 - 二分探索
-	- + SortedSet（RubyだとRBTree）
+- SortedSet（RubyだとRBTree）のlower_boundとupper_bound
 - ダイクストラ
 
 もっともPriorityQueueやRBTreeやUnionFindなどの実装はライブラリ頼りですが...
