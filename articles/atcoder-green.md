@@ -26,7 +26,7 @@ aliases:
 Rubyは競プロでも使える便利メソッドが色々とあって便利です：
 - [`Enumerable#each_slice`](https://docs.ruby-lang.org/ja/latest/method/Enumerable/i/each_slice.html)（`[1, 2, 3, 4].each_slice(2)` -> `[[1, 2], [3, 4]]`）
 - [`Enumerable#each_cons`](https://docs.ruby-lang.org/ja/latest/method/Enumerable/i/each_cons.html)（`[1, 2, 3, 4].each_cons(2)` -> `[[1, 2], [2, 3], [3, 4]]`）
-- [`Enumerable#chunk`](`https://docs.ruby-lang.org/ja/latest/method/Enumerable/i/chunk.html)（`[1, 1, 2, 3, 2].chunk { _1 }` -> `[[1, [1, 1]], [2, [2]], [3, [3]], [2, [2]]]`）
+- [`Enumerable#chunk`](https://docs.ruby-lang.org/ja/latest/method/Enumerable/i/chunk.html)（`[1, 1, 2, 3, 2].chunk { _1 }` -> `[[1, [1, 1]], [2, [2]], [3, [3]], [2, [2]]]`）
 - [`Range#bsearch`](https://docs.ruby-lang.org/ja/latest/method/Range/i/bsearch.html)（二分探索）
 
 もちろんACLもあります：[universato/ac-library-rb](https://github.com/universato/ac-library-rb)
