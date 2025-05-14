@@ -45,6 +45,13 @@ $ -> WSL：一般ユーザーで実行
 
 <読み替え>（例：cat /home/<ユーザー名>/.ssh/id_ed25519）
 ```
+
+### 執筆時の環境
+- Windows 11
+- WSL：Ubuntu 24.04.2 LTS x86_64
+- usbmuxd：1.1.1
+- xtool：1.10.1
+- usbipd-win：5.0.0
 ## 2：Xtoolのセットアップ
 1. Xcode.xipをダウンロードします。
 
@@ -89,7 +96,7 @@ APIキーは[有料のApple Developer Program](https://developer.apple.com/progr
 4. Xcode.xipのパスを指定します。
 
 ```
-Choice (0-1): 10
+Choice (0-1): 1
 ...
 Path to Xcode.xip: <1.でダウンロードした先のパス>
 ```
@@ -100,7 +107,18 @@ Path to Xcode.xip: <1.でダウンロードした先のパス>
 
 1. プロジェクトを作成します。
 ```shell
-xtool new Hello
+$ xtool new Hello
+Creating package: Hello
+Creating Package.swift
+Creating xtool.yml
+Creating .gitignore
+Creating .sourcekit-lsp/config.json
+Creating Sources/Hello/HelloApp.swift
+Creating Sources/Hello/ContentView.swift
+
+Finished generating project Hello. Next steps:
+- Enter the directory with `cd Hello`
+- Build and run with `xtool dev`
 ```
 Hello下にアプリが作成されているはずです。
 ```shell
@@ -113,6 +131,8 @@ $ cd Hello
 -bundleID: com.example.hello
 +bundleID: com.sevenc7c.hello
 ```
+
+3. 必要に応じてSources/Hello下を編集します。
 ## 4：アプリのインストール
 ### usbipd + usbmuxdを使った場合
 1. USBでiPhone/iPad端末をPCに繋ぎます。
