@@ -144,8 +144,8 @@ Apple Mobile Device USB Composite DeviceのBUSIDを覚えておきます。
 ```
 WSL usbip: error: Attach Request for 6-4 failed - Device busy (exported)
 ```
-その場合は以下のコマンドを連打しながら（上->Enterを繰り返す）USBをつなぎ直すとほとんどの場合でうまくいきます。
-```
+その場合は以下のコマンドを連打しながら（上->Enterを繰り返す）USBをつなぎ直すとうまくいきます。
+```shell
 ! usbipd bind --busid <busid> --force && usbipd attach --wsl --busid <busid>
 ```
 
@@ -158,7 +158,7 @@ Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 ```
 
 5. `xtool dev`を実行します。
-```
+```shell
 $ xtool dev
 ```
 
