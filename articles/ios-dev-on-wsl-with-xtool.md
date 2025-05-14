@@ -4,7 +4,9 @@ published: true
 emoji: 🍏
 type: tech
 topics:
-  - xtool ios
+  - xtool
+  - ios
+  - swift
 date: 2025-05-11
 aliases:
 ---
