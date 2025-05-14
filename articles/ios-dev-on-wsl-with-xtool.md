@@ -187,6 +187,7 @@ cp ./xtool/$APP_NAME.ipa /mnt/z
 また、[`xtool dev build --ipa`が次のバージョンで実装される予定です](https://github.com/xtool-org/xtool/pull/24)。
 
 2. ipaを端末にインストールします。
+
 これは使っているサイドロードツールのドキュメントを参照してください。
 
 ![](https://storage.googleapis.com/zenn-user-upload/fa18ec732fa9-20250511.png)
