@@ -1,5 +1,5 @@
 ---
-title: Xtoolを使ってWSLでiOS開発をする
+title: Xtoolを使ってWSLでiOSアプリを開発する
 published: true
 emoji: 🍏
 type: tech
@@ -10,7 +10,7 @@ topics:
 date: 2025-05-11
 aliases:
 ---
-# Xtoolを使ってWSLでiOS開発をする
+# Xtoolを使ってWSLでiOSアプリを開発する
 
 :::message alert
 この記事は2025/05/14時点での情報です。
