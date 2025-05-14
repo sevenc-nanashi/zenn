@@ -1,6 +1,6 @@
 ---
 title: Xtoolを使ってWSLでiOS開発をする
-published: false
+published: true
 emoji: 🍏
 type: tech
 topics:
