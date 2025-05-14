@@ -1,6 +1,6 @@
 ---
 title: Neovim：一定時間操作が無かったら何かやる設定の作り方
-published: false
+published: true
 emoji: 💤
 type: tech
 topics:
