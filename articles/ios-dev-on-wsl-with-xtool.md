@@ -43,7 +43,7 @@ $ -> WSL：一般ユーザーで実行
 > -> Windows：一般ユーザーで実行
 ! -> Windows：Administratorで実行
 
-<> -> <読み替え>（例：cat /home/<ユーザー名>/.ssh/id_ed25519）
+<読み替え>（例：cat /home/<ユーザー名>/.ssh/id_ed25519）
 ```
 ## 2：Xtoolのセットアップ
 1. Xcode.xipをダウンロードします。
