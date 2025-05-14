@@ -14,7 +14,7 @@ aliases:
 
 :::message alert
 この記事は2025/05/14時点での情報です。
-バージョン：v1.10.1
+バージョン：v1.10.0
 :::
 
 ## はじめに
@@ -52,7 +52,7 @@ $ -> WSL：一般ユーザーで実行
 - Windows 11
 - WSL：Ubuntu 24.04.2 LTS x86_64
 - usbmuxd：1.1.1
-- xtool：1.10.1
+- xtool：1.11.0
 - usbipd-win：5.0.0
 ## 2：Xtoolのセットアップ
 1. Xcode.xipをダウンロードします。
@@ -189,24 +189,16 @@ $ xtool dev
 ### サイドロード環境の場合
 
 1. ipaをビルドします。
-v1.10.1の時点では以下のようにします：
-```bash
-#!/usr/bin/env bash
-set -eux
 
-APP_NAME=<アプリ名>
-
-xtool dev build
-mkdir -p xtool/ipa_temp/Payload
-cp -r xtool/$APP_NAME.app xtool/ipa_temp/Payload
-(cd xtool/ipa_temp && zip -r ../$APP_NAME.ipa Payload)
-
-# 送信部分は必要に応じて置き換えてください。
-# （例：自分はZドライブをRamDiskにしているので/mnt/zにコピーしている）
-cp ./xtool/$APP_NAME.ipa /mnt/z
+```shell
+$ xtool dev build --ipa
+Planning...
+Building for debugging...
+[8/8] Linking Hello-App
+Build of product 'Hello-App' complete! (8.22s)
+Packaging...
+Wrote to /home/sevenc7c/xtool/Hello/xtool/Hello.ipa
 ```
-
-また、[`xtool dev build --ipa`が次のバージョンで実装される予定です](https://github.com/xtool-org/xtool/pull/24)。
 
 2. ipaを端末にインストールします。
 
