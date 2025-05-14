@@ -32,7 +32,7 @@ Xtoolというものを使えばLinux環境でもiOSの開発ができるとい�
 - [Swift](https://www.swift.org/install/linux/)
 - Apple ID
 
-以下のうちのいずれかが必要です：
+以下の組み合わせのうち、いずれかが必要です：
 - [usbipd](https://learn.microsoft.com/en-us/windows/wsl/connect-usb)、[usbmuxd](https://github.com/libimobiledevice/usbmuxd)
 - [AltStore Classic](https://faq.altstore.io/altstore-classic/your-altstore)
 - その他のサイドロード環境（Sideloadly、TrollStoreなど）
@@ -47,18 +47,23 @@ $ -> WSL：一般ユーザーで実行
 ```
 ## 2：Xtoolのセットアップ
 1. Xcode.xipをダウンロードします。
+
 以下のURLからダウンロードできます。**curl等でのダウンロードはできません**（一敗）。
 <https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_16.3/Xcode_16.3.xip>
 この時、ダウンロード先のパスを覚えておく必要があります。これは１回しか使われないので、`/tmp`でも大丈夫のはずです（要検証）。
 また、念のため`file`コマンドでちゃんとダウンロードできているか確認することを推奨します。（現時点だとXtoolに無効なファイルを指定するとハングするバグがあるため）
+```
+$ file ~/xtool/xcode.xip
+/home/sevenc7c/xtool/xcode.xip: xar archive compressed TOC: 3942, SHA-1 checksum
+```
 
 2. Xtoolをインストールします。
 ```shell
-$ cd ~/.local/bin  # PATHが通っていればどこでも可
 $ curl -fL \
     "https://github.com/xtool-org/xtool/releases/latest/download/xtool-$(uname -m).AppImage" \
-    -o xtool
-$ chmod +x xtool
+    -o ./xtool
+$ chmod +x ./xtool
+$ cd ./xtool ~/.local/bin/xtool  # PATHが通っていればどこでも可
 ```
 
 3. Xtoolでログインします。
