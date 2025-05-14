@@ -218,6 +218,6 @@ cp ./xtool/$APP_NAME.ipa /mnt/z
 
 ## 終わりに
 まだビルドしただけですが、ビルドできたということに大きな意義があると思います。
-Xcodeでのプレビューなどが使えない以上、おそらく現実的なのは[Capacitor](https://capacitorjs.jp)を使うことになると思います。（まだXtoolで動かせていませんが...）
+Xcodeでのプレビューなどが使えない以上、おそらく現実的なのは[Capacitor](https://capacitorjs.jp)などのクロスプラットフォームなGUIライブラリを使うことになると思います。（まだCapacitorをXtoolで動かせていませんが...）
 
 ありがとうございました。
