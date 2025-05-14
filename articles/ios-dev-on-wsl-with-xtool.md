@@ -72,7 +72,7 @@ $ curl -fL \
     "https://github.com/xtool-org/xtool/releases/latest/download/xtool-$(uname -m).AppImage" \
     -o ./xtool
 $ chmod +x ./xtool
-$ cd ./xtool ~/.local/bin/xtool  # PATHが通っていればどこでも可
+$ mv ./xtool ~/.local/bin/xtool  # PATHが通っていればどこでも可
 ```
 
 3. Xtoolでログインします。
