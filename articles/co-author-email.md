@@ -31,7 +31,7 @@ function cab() {
 
 # APIを使用するバージョン（ID+ユーザー名）
 function cab2() {
-  gh api /users/$1 -q '"Co-Authored-By: \(.login) <\(.id)+\(.login)@users.noreply.github.com>"'
+  gh api /users/$1 -q '"Co-Authored-By: \(.name) <\(.id)+\(.login)@users.noreply.github.com>"'
 }
 
 # $ git commit -am "feat: ほげほげ" -m "$(cab sevenc-nanashi)"
