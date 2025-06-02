@@ -19,6 +19,19 @@ published: true
 git commit -m "いろいろ" -m "Co-Authored-By: sevenc-nanashi <sevenc-nanashi@users.noreply.github.com>"
 ```
 
+# おまけ
+
+`.bashrc`などにこれを追加すると便利です：
+
+```bash
+function cab() {
+  echo "Co-Authored-By: $1 <$1@users.noreply.github.com>"
+}
+
+# $ git commit -am "feat: ほげほげ" -m "$(cab sevenc-nanashi)"
+# のように使用
+```
+
 # 最後に
 
 内容うすすぎ
