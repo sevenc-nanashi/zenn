@@ -10,6 +10,15 @@ topics:
 date: 2024-09-14
 aliases:
 ---
+---
+title: タイトル
+published: false
+emoji: 🔥
+type: tech
+topics: 
+date: 2025-06-17
+aliases:
+---
 くぅ～疲れましたw これにて入緑です！
 ![](https://storage.googleapis.com/zenn-user-upload/461986507b5c-20240928.jpeg)
 ちゃんとAtCoderを始めてから2.5ヶ月。ABC373で水パフォ（1297）を出して入緑しました！嬉しい！
