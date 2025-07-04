@@ -19,6 +19,26 @@ published: true
 git commit -m "いろいろ" -m "Co-Authored-By: sevenc-nanashi <sevenc-nanashi@users.noreply.github.com>"
 ```
 
+# おまけ
+
+`.bashrc`などにこれを追加すると便利です：
+
+```bash
+# APIを使用しないバージョン（ユーザー名のみ）
+function cab() {
+  echo "Co-Authored-By: $1 <$1@users.noreply.github.com>"
+}
+
+# APIを使用するバージョン（ID+ユーザー名）
+function cab2() {
+  gh api /users/$1 -q '"Co-Authored-By: \(.name) <\(.id)+\(.login)@users.noreply.github.com>"'
+}
+
+# $ git commit -am "feat: ほげほげ" -m "$(cab sevenc-nanashi)"
+# $ git commit -am "feat: ふがふが" -m "$(cab2 sevenc-nanashi)"
+# のように使用
+```
+
 # 最後に
 
 内容うすすぎ
