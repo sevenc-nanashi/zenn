@@ -1,6 +1,6 @@
 ---
 title: ICPC2025国内予選参加記
-published: false
+published: true
 emoji: 🧑‍🧑‍🧒
 type: tech
 topics:
