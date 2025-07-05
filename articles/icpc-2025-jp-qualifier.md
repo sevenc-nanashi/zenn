@@ -1,5 +1,5 @@
 ---
-title: ICPC2025予選参加記
+title: ICPC2025国内予選参加記
 published: false
 emoji: 🧑‍🧑‍🧒
 type: tech
