@@ -17,7 +17,7 @@ VSCodeなどのエディタのターミナルはデフォルトではPowerShell�
 というわけで、[uutils/coreutils](https://github.com/uutils/coreutils)でcoreutilsをPowerShellで使えるようにします。
 
 ## やり方
-uutilsをインストールします：
+uutils/coreutilsをインストールします：
 ```
 $ cargo install --git https://github.com/uutils/coreutils
 ```
